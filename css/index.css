@@ -1,0 +1,53 @@
+body{
+	background:#FFD893;
+	/* background-image:url(../imgs/beijing6.jpg);
+	background-size:100% 100%; */
+}
+#canvas{
+	box-shadow: 0 0 3px black;
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-320px;
+	margin-left:-200px;
+	background:rgba(255,255,255,0.5);
+}
+#clock{
+	margin-left:45px;
+	margin-top:50px;
+}
+#time{
+	width:200px;
+	height:50px;
+	border:1px solid #7DADA1;
+	margin-left:100px;
+	margin-top:40px;
+	font-size:20px;
+	color:#656462;
+	text-align:center;
+	line-height:50px;
+}
+.button{
+	border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 0 1.25em;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 0.75em;
+    padding-right: 1.5em;
+    padding-bottom: 0.8125em;
+    padding-left: 1.5em;
+    font-size: 1em;
+    background-color: #2daebf;
+    border-color: #238896;
+    color: white;
+    margin-left:150px;
+    margin-top:50px;
+}
